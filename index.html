@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Puneet Kumar - Software Engineer and MERN Stack Developer Portfolio showcasing skills, projects and professional experience">
+    <title>Puneet Kumar</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="logo">Puneet<span>Kumar</span></div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#home" class="nav-item active">Home</a></li>
+                <li><a href="#about" class="nav-item">About</a></li>
+                <li><a href="#projects" class="nav-item">Projects</a></li>
+                <li><a href="#contact" class="nav-item">Contact</a></li>
+            </ul>
+        </div>
+        <a href="https://drive.google.com/file/d/1Z6XhfaV34JyHVduUUpvzFThEq_IjN3bV/view?usp=sharing" class="resume-btn" target="_blank">Resume</a>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="intro-text">Hi, I'm</p>
+                    <h1 class="name">PUNEET KUMAR</h1>
+                    <h2 class="tagline">I build things for the web.</h2>
+                    <p class="hero-description">
+                        I'm a software developer specializing in building exceptional digital experiences. 
+                        Currently, I'm focused on MERN stack development and creating accessible, 
+                        human-centered products.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn btn-outline">View My Work</a>
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="pic.jpg" alt="Puneet Kumar">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am 21 years old and currently pursuing a Bachelor of Technology in Electronics and Communication Engineering from Noida Institute of Engineering and Technology (NIET). I was born in Sitamarhi, Bihar, and completed my schooling in Delhi—my 10th grade at Hari Krishna Public School and my 12th grade at Spring Meadows Public School.</p>
+                    
+                    <p>My journey in tech began with learning HTML, CSS, and JavaScript, which quickly turned into a passion for creating elegant, user-friendly web applications. I've since expanded my skill set to include the entire MERN stack, allowing me to build full-featured web applications from front to back.</p>
+                    
+                    <p>When I'm not coding, you can find me solving Data Structure and Algorithm problems, exploring new technologies, or contributing to open-source projects.</p>
+                    
+                    <div class="tabs-container">
+                        <div class="tab-buttons">
+                            <button class="tab-btn active" data-tab="skills">Skills</button>
+                            <button class="tab-btn" data-tab="experience">Experience</button>
+                            <button class="tab-btn" data-tab="education">Education</button>
+                        </div>
+                        
+                        <div class="tab-content">
+                            <!-- Skills Tab -->
+                            <div class="tab-pane active" id="skills-tab">
+                                <div class="skills-grid">
+                                    <div class="skill-card">
+                                        <h3>Web Development</h3>
+                                        <p>Creating responsive and dynamic web interfaces using modern frameworks and technologies.</p>
+                                        <div class="skill-tags">
+                                            <span>HTML</span>
+                                            <span>CSS</span>
+                                            <span>JavaScript</span>
+                                            <span>React</span>
+                                            <span>Node.js</span>
+                                            <span>Express.js</span>
+                                            <span>MongoDB</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="skill-card">
+                                        <h3>Java DSA</h3>
+                                        <p>Problem-solving with data structures and algorithms using Java programming language.</p>
+                                        <div class="skill-tags">
+                                            <span>Java</span>
+                                            <span>Algorithms</span>
+                                            <span>Data Structures</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                             <!-- Experience Tab -->
+                            <div class="tab-pane" id="experience-tab">
+                                <div class="timeline">
+                                    <div class="timeline-item">
+                                        <h3>Web Developer</h3>
+                                        <p class="timeline-period">NIET - 2022-2024</p>
+                                        <p>Developed and maintained the many  web applications, focusing on responsive design and user experience.</p>
+                                    </div>
+                                    
+                                    <div class="timeline-item">
+                                        <h3>Java DSA</h3>
+                                        <p class="timeline-period">NIET - 2022-2024</p>
+                                        <p>Attend Many workshops and Online sessions to help me to  master data structures and algorithms in Java.</p>
+                                    </div>
+                                    
+                                   
+                                </div>
+                            </div>
+                            
+                            <!-- Education Tab -->
+                            <div class="tab-pane" id="education-tab">
+                                <div class="education-list">
+                                    <div class="education-item">
+                                        <h3>Bachelor of Technology in ECE</h3>
+                                        <p class="education-place">Noida Institute Of Engineering & Technology - 2022-2024</p>
+                                        <p>Focused on electronics and communication engineering with additional coursework in software development.</p>
+                                        <p class="education-grade">Grade: 8.2 CGPA</p>
+                                    </div>
+                                    
+                                    <div class="education-item">
+                                        <h3>Intermediate</h3>
+                                        <p class="education-place">Spring Meadows Public School</p>
+                                        <p>Completed senior secondary education with focus on science and mathematics.</p>
+                                        <!-- <p class="education-grade">Grade: 70%</p> -->
+                                    </div>
+                                    
+                                    <div class="education-item">
+                                        <h3>Matriculate</h3>
+                                        <p class="education-place">Hari Krishna Public School</p>
+                                        <p>Completed secondary education with strong foundation in core subjects.</p>
+                                        <!-- <p class="education-grade">Grade: 79%</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-actions">
+                        <a href="Resume.pdf" class="btn btn-outline" target="_blank">Download Resume</a>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/puneet-kumar-06a204244/" target="_blank" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/pun234" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="pic.jpg" alt="Puneet Kumar coding">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <p class="section-description">
+                Here are a few of my recent projects. Want to see more? 
+                <a href="https://github.com/pun234" target="_blank" class="text-link">Check out my GitHub</a>.
+            </p>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Untitled design (1).png" alt="TIC-TAC-TOE Game">
+                        <div class="project-links">
+                            <a href="https://github.com/pun234" target="_blank" aria-label="GitHub Repository">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://tic-tac-mu-lac.vercel.app/" target="_blank" aria-label="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>TIC-TAC-TOE Game</h3>
+                            <div class="project-icon">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            An interactive Tic-Tac-Toe game built with JavaScript that features  and responsive design.
+                        </p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <a href="https://github.com/pun234" class="project-link" target="_blank">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://th.bing.com/th/id/OIP.tNA7ml1W_5V1hdeb1oVtHQHaEK?r=0&cb=iwp2&rs=1&pid=ImgDetMain" alt="DoorCart">
+                        <div class="project-links">
+                            <a href="https://github.com/pun234" target="_blank" aria-label="GitHub Repository">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://github.com/pun234" target="_blank" aria-label="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>DoorCart</h3>
+                            <div class="project-icon">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                             Developed a full-stack e-commerce website using the MERN stack, featuring ,admin and user panels.
+                        </p>
+                        <div class="project-tech">
+                             <span>MongoDB</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                        </div>
+                        <a href="https://github.com/pun234" class="project-link" target="_blank">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500" alt="Portfolio">
+                        <div class="project-links">
+                            <a href="https://github.com/pun234" target="_blank" aria-label="GitHub Repository">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://github.com/pun234" target="_blank" aria-label="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Portfolio</h3>
+                            <div class="project-icon">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                        </div>
+                        <p class="project-description">
+                            A personal portfolio website showcasing skills, projects, and professional information with a modern design.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="https://github.com/pun234" class="project-link" target="_blank">
+                            View Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="more-projects">
+                <a href="https://github.com/pun234" class="btn btn-primary" target="_blank">
+                    View More Projects <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <p class="contact-subtitle">03. What's Next?</p>
+            <h2 class="contact-title">Get In Touch</h2>
+            <p class="contact-description">
+                I'm currently looking for new opportunities and my inbox is always open. 
+                Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            </p>
+            
+            <div class="contact-methods">
+                <a href="mailto:Puneetk5646@gmail.com" class="contact-method">
+                    <i class="fas fa-envelope"></i>
+                    <span>Puneetk5646@gmail.com</span>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/puneet-kumar-06a204244/" target="_blank" class="contact-method">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                
+                <a href="tel:8448769461" class="contact-method">
+                    <i class="fas fa-phone"></i>
+                    <span>8448769461</span>
+                </a>
+            </div>
+            
+            <a href="mailto:Puneetk5646@gmail.com" class="btn btn-outline btn-large">Say Hello</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Designed & Built by Puneet Kumar</p>
+        <div class="footer-social">
+            <a href="https://github.com/pun234" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/puneet-kumar-06a204244/" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+        <a href="#home" class="back-to-top">
+            <i class="fas fa-arrow-up"></i> Back to Top
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
